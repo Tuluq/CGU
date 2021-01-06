@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 1000px;
+    width: 100%;
+    background-color:cyan;
+    background-image: url("images/d.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height:15vh;
+    margin:auto;
+    display: flex;
+    align-items:center;
+}
+.logo{
+    width:200px;
+    cursor:pointer;   
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#000066;
+
+}
+.content h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:#000066;
+}
+.content p{
+    font-size: 20px;
+    color:#8080ff;
+}
+.content{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #fe87ab, #ffc477);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color:#fff;
+    box-shadow: 3px 8px 22px rgba(95,28,68,0.15);
+}
+.arrow-icons img{
+    width: 60px;
+    margin-right: 25px;
+}
+.math-img{
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    left: 0px;
+    opacity: 10%;   
+}
+.social-links img{
+    width: 40px;
+    margin-right: 25px; 
+}
+
+
+
+
+
+
+
+
+
